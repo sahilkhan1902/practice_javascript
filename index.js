@@ -17,7 +17,7 @@ function calc(n){
 }
 console.log(calc(10))
 
-// calculate the fibonacci no 
+// calculate the fibonacci no  using iterative approach
 const fibo = (n) => {
  if (n<=1){
     return n;
@@ -31,4 +31,16 @@ const fibo = (n) => {
  }
  return b
 }
-console.log(fibo(9))
+
+console.log(fibo(159))
+
+// calculate the fibonacci no using recursive approach
+function fibonacci (n){
+    if(n<=1){
+        return n
+    }
+    else{
+         return fibonacci(n-1) + fibonacci(n-2)
+    }
+}
+console.log(fibonacci(4));

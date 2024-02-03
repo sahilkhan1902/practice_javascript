@@ -9,13 +9,13 @@ function sumss(n) {
     return result;
 }
 
-console.log(sumss(100));
+// console.log(sumss(100));
  // using formula
 function calc(n){
     let sum = n*(n+1)/2
     return sum
 }
-console.log(calc(10))
+// console.log(calc(10))
 
 // calculate the fibonacci no  using iterative approach
 const fibo = (n) => {
@@ -32,7 +32,7 @@ const fibo = (n) => {
  return b
 }
 
-console.log(fibo(159))
+// console.log(fibo(159))
 
 // calculate the fibonacci no using recursive approach
 function fibonacci (n){
@@ -43,4 +43,19 @@ function fibonacci (n){
          return fibonacci(n-1) + fibonacci(n-2)
     }
 }
-console.log(fibonacci(4));
+// console.log(fibonacci(4));
+
+// pattern creation
+for(i=0; i<=4; i++){
+    let row = ''
+    for(let j =0; j<=i+1; j++){
+     row+='*'
+    }
+    console.log(row)
+
+}
+
+
+
+
+

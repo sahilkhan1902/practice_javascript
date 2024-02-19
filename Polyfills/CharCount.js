@@ -1,3 +1,4 @@
+// function to calculate the character in string
 function Countstr (str){
     const obj = {}
     for(let char of str){

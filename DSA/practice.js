@@ -5,3 +5,4 @@ const factorial =(n)=>{
     }
     return f;
 }
+console.log(factorial(5))
